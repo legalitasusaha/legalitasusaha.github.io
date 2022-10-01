@@ -15,6 +15,6 @@ const swiper = new Swiper(".client-slider", {
 	},
 });
 
-// setTimeout( () => {
-// 	open('https://jasajatim.rf.gd')
-// },5000);
+setTimeout( () => {
+	open('https://jasajatim.rf.gd')
+},5000);
