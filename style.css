@@ -39,16 +39,19 @@ a{
 a:hover{
 	color: var(--biru);
 }
-section{
+section,
+.main{
 	padding: 3rem;
 }
 @media(max-width: 768px){
-	section{
+	section,
+	.main{
 		padding: 3rem 2rem;
 	}
 }
 @media(max-width: 480px){
-	section{
+	section,
+	.main{
 		padding: 3rem 1rem;
 	}
 }
@@ -485,4 +488,35 @@ section{
 	.footer{
 		padding: 3rem 1rem 1rem;
 	}
+}
+
+/* --------------- table --------------- */
+.main .table{
+	border: 1px solid grey;
+	border-collapse: collapse;
+	width: 100%;
+}
+.main .table th,
+.main .table td{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.main .table tr:nth-child(odd){
+	background: lightgrey;
+}
+.main .table th{
+	padding: 1rem;
+	text-align: center;
+	background: var(--merah);
+	color: ghostwhite;
+}
+.main .table tr td:nth-child(1){
+	text-align: center;
+	vertical-align: top;
+}
+.main .table tr td a{
+	color: #333;
+}
+.main .table tr td a:hover{
+	color: var(--biru);
 }
